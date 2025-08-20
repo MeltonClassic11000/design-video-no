@@ -1,0 +1,404 @@
+@font-face {
+  font-family: 'Bebas Neue';
+  src: url("./../fonts/Bebas_Neue/BebasNeue-Regular.woff2") format("woff2"), url("./../fonts/Bebas_Neue/BebasNeue-Regular.woff") format("woff"), url("./../fonts/Bebas_Neue/BebasNeue-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.bebas-neue {
+  font-family: 'Bebas Neue', sans-serif;
+}
+
+@font-face {
+  font-family: 'Amiko';
+  src: url("./../fonts/Amiko/Amiko-Bold.woff2") format("woff2"), url("./../fonts/Amiko/Amiko-Bold.woff") format("woff"), url("./../fonts/Amiko/Amiko-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Amiko';
+  src: url("./../fonts/Amiko/Amiko-SemiBold.woff2") format("woff2"), url("./../fonts/Amiko/Amiko-SemiBold.woff") format("woff"), url("./../fonts/Amiko/Amiko-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Amiko';
+  src: url("./../fonts/Amiko/Amiko-Regular.woff2") format("woff2"), url("./../fonts/Amiko/Amiko-Regular.woff") format("woff"), url("./../fonts/Amiko/Amiko-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.amiko {
+  font-family: 'Amiko', sans-serif !important;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url("./../fonts/Poppins/Poppins-Medium.woff2") format("woff2"), url("./../fonts/Poppins/Poppins-Medium.woff") format("woff"), url("./../fonts/Poppins/Poppins-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url("./../fonts/Poppins/Poppins-Regular.woff2") format("woff2"), url("./../fonts/Poppins/Poppins-Regular.woff") format("woff"), url("./../fonts/Poppins/Poppins-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url("./../fonts/Poppins/Poppins-Bold.woff2") format("woff2"), url("./../fonts/Poppins/Poppins-Bold.woff") format("woff"), url("./../fonts/Poppins/Poppins-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url("./../fonts/Poppins/Poppins-SemiBold.woff2") format("woff2"), url("./../fonts/Poppins/Poppins-SemiBold.woff") format("woff"), url("./../fonts/Poppins/Poppins-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+.poppins {
+  font-family: "Poppins", sans-serif;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url("./../fonts/Roboto/Roboto-Bold.woff2") format("woff2"), url("./../fonts/Roboto/Roboto-Bold.woff") format("woff"), url("./../fonts/Roboto/Roboto-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url("./../fonts/Roboto/Roboto-Medium.woff2") format("woff2"), url("./../fonts/Roboto/Roboto-Medium.woff") format("woff"), url("./../fonts/Roboto/Roboto-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url("./../fonts/Roboto/Roboto-Regular.woff2") format("woff2"), url("./../fonts/Roboto/Roboto-Regular.woff") format("woff"), url("./../fonts/Roboto/Roboto-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url("./../fonts/Roboto/Roboto-Black.woff2") format("woff2"), url("./../fonts/Roboto/Roboto-Black.woff") format("woff"), url("./../fonts/Roboto/Roboto-Black.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+.roboto {
+  font-family: "Roboto", sans-serif;
+}
+
+body .f-10 {
+  font-size: 10px;
+}
+
+body .f-12 {
+  font-size: 12px;
+}
+
+body .f-14 {
+  font-size: 14px;
+}
+
+body .f-15 {
+  font-size: 15px;
+}
+
+body .f-16 {
+  font-size: 16px;
+}
+
+body .f-18 {
+  font-size: 18px;
+}
+
+body .f-20 {
+  font-size: 20px;
+}
+
+body .f-22 {
+  font-size: 22px;
+}
+
+body .f-24 {
+  font-size: 24px;
+}
+
+body .f-28 {
+  font-size: 28px;
+}
+
+body .f-30 {
+  font-size: 30px;
+}
+
+body .f-32 {
+  font-size: 32px;
+}
+
+body .f-34 {
+  font-size: 34px;
+}
+
+body .f-36 {
+  font-size: 36px;
+}
+
+body .f-38 {
+  font-size: 38px;
+}
+
+body .f-40 {
+  font-size: 40px;
+}
+
+body .f-42 {
+  font-size: 42px;
+}
+
+body .f-48 {
+  font-size: 48px;
+}
+
+body .f-50 {
+  font-size: 50px;
+}
+
+body .f-60 {
+  font-size: 60px;
+}
+
+body .lh-20 {
+  line-height: 20px;
+}
+
+body .lh-30 {
+  line-height: 30px;
+}
+
+body .lh-40 {
+  line-height: 40px;
+}
+
+body .lh-50 {
+  line-height: 50px;
+}
+
+body .lh-60 {
+  line-height: 60px;
+}
+
+body .font-weight-600 {
+  font-weight: 600;
+}
+
+body .text-truncate-3 {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+body .text-primary {
+  color: #0283c5 !important;
+}
+
+body .text-secondary {
+  color: #e63467 !important;
+}
+
+body .text-gray {
+  color: #5e5c68 !important;
+}
+
+body .text-yellow {
+  color: #ffb400;
+}
+
+body .title-bg {
+  color: white;
+  font-family: 'Bebas Neue', sans-serif;
+  font-weight: 600;
+  font-size: 50px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  background-image: url("../img/title-bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 45px;
+  padding: 9px 0;
+}
+
+body .secondary-title {
+  color: white;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 34px;
+  text-transform: uppercase;
+}
+
+body .secondary-title-2 {
+  color: white;
+  font-size: 60px;
+  line-height: 60px;
+  text-transform: uppercase;
+  font-family: "rockwell", sans-serif;
+}
+
+body .nav-title {
+  font-family: "rockwell", sans-serif;
+  font-size: 19px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  line-height: 24px;
+}
+
+body .title-separator:after {
+  content: "";
+  height: 2px;
+  width: 27px;
+  background: #fff;
+  display: block;
+  margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+  body .title-bg {
+    font-size: 30px;
+    margin-bottom: 30px;
+    background-size: 100%;
+    padding: 15px 0;
+  }
+}
+
+.single-agreement {
+  background-color: #dee2e6;
+  font-size: 15px;
+}
+
+.single-agreement .main section {
+  position: relative;
+  overflow: hidden;
+}
+
+.single-agreement .main .ast-container {
+  display: block;
+  max-width: 100%;
+  padding: 0;
+}
+
+.single-agreement .main .container {
+  max-width: 900px;
+}
+
+.single-agreement .main .site-content {
+  padding: 0;
+}
+
+.single-agreement .main .agreement-wrapper {
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 60px 0;
+}
+
+.single-agreement .main .agreement-wrapper header .header-top {
+  padding-right: 10px;
+}
+
+.single-agreement .main .agreement-wrapper header .header-bottom {
+  padding: 0 40px;
+}
+
+.single-agreement .main .agreement-wrapper header .header-bottom .main-title {
+  letter-spacing: 2px;
+  line-height: 30px;
+  font-weight: 400;
+}
+
+.single-agreement .main .agreement-wrapper .card {
+  border-radius: 16px;
+  -webkit-box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  padding: 20px 0 10px;
+  min-height: 800px;
+}
+
+.single-agreement .main .agreement-wrapper .card .card-body {
+  padding: 40px 30px;
+}
+
+.single-agreement .main .agreement-wrapper .card .user-details {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.single-agreement .main .agreement-wrapper .card .user-details li {
+  width: 50%;
+  border-left: 2px solid #e63467;
+  padding: 0 20px;
+  margin: 15px 0;
+}
+
+.single-agreement .main .agreement-wrapper .card .user-details li .sub-title {
+  font-size: 12px;
+}
+
+.single-agreement .main .agreement-wrapper .card .signature-pad {
+  width: 100%;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  display: block;
+  background-color: #fffadd;
+}
+
+@media (max-width: 768px) {
+  .single-agreement .main .agreement-wrapper {
+    padding: 20px 0;
+  }
+  .single-agreement .main .agreement-wrapper header .header-bottom {
+    padding: 0 10px;
+  }
+  .single-agreement .main .agreement-wrapper .card {
+    padding: 0;
+  }
+  .single-agreement .main .agreement-wrapper .card .card-body {
+    padding: 30px 20px;
+  }
+  .single-agreement .main .agreement-wrapper .card .user-details {
+    display: block;
+  }
+  .single-agreement .main .agreement-wrapper .card .user-details li {
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=agreement.css.map */

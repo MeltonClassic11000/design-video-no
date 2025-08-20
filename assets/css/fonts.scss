@@ -1,0 +1,325 @@
+@import "colors.scss";
+
+// Bebas Neue ==========================================================
+@font-face {
+  font-family: 'Bebas Neue';
+  src: url('./../fonts/Bebas_Neue/BebasNeue-Regular.woff2') format('woff2'),
+  url('./../fonts/Bebas_Neue/BebasNeue-Regular.woff') format('woff'),
+  url('./../fonts/Bebas_Neue/BebasNeue-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+.bebas-neue {
+  font-family: 'Bebas Neue', sans-serif;
+}
+
+
+// Amiko ==========================================
+@font-face {
+  font-family: 'Amiko';
+  src: url('./../fonts/Amiko/Amiko-Bold.woff2') format('woff2'),
+  url('./../fonts/Amiko/Amiko-Bold.woff') format('woff'),
+  url('./../fonts/Amiko/Amiko-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Amiko';
+  src: url('./../fonts/Amiko/Amiko-SemiBold.woff2') format('woff2'),
+  url('./../fonts/Amiko/Amiko-SemiBold.woff') format('woff'),
+  url('./../fonts/Amiko/Amiko-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Amiko';
+  src: url('./../fonts/Amiko/Amiko-Regular.woff2') format('woff2'),
+  url('./../fonts/Amiko/Amiko-Regular.woff') format('woff'),
+  url('./../fonts/Amiko/Amiko-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+.amiko {
+  font-family: 'Amiko', sans-serif !important;
+}
+
+
+// Poppins =====================================================
+@font-face {
+  font-family: 'Poppins';
+  src: url('./../fonts/Poppins/Poppins-Medium.woff2') format('woff2'),
+  url('./../fonts/Poppins/Poppins-Medium.woff') format('woff'),
+  url('./../fonts/Poppins/Poppins-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Poppins';
+  src: url('./../fonts/Poppins/Poppins-Regular.woff2') format('woff2'),
+  url('./../fonts/Poppins/Poppins-Regular.woff') format('woff'),
+  url('./../fonts/Poppins/Poppins-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Poppins';
+  src: url('./../fonts/Poppins/Poppins-Bold.woff2') format('woff2'),
+  url('./../fonts/Poppins/Poppins-Bold.woff') format('woff'),
+  url('./../fonts/Poppins/Poppins-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Poppins';
+  src: url('./../fonts/Poppins/Poppins-SemiBold.woff2') format('woff2'),
+  url('./../fonts/Poppins/Poppins-SemiBold.woff') format('woff'),
+  url('./../fonts/Poppins/Poppins-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+.poppins {
+  font-family: "Poppins", sans-serif;
+}
+
+
+// Roboto ===================================
+@font-face {
+  font-family: 'Roboto';
+  src: url('./../fonts/Roboto/Roboto-Bold.woff2') format('woff2'),
+  url('./../fonts/Roboto/Roboto-Bold.woff') format('woff'),
+  url('./../fonts/Roboto/Roboto-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Roboto';
+  src: url('./../fonts/Roboto/Roboto-Medium.woff2') format('woff2'),
+  url('./../fonts/Roboto/Roboto-Medium.woff') format('woff'),
+  url('./../fonts/Roboto/Roboto-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Roboto';
+  src: url('./../fonts/Roboto/Roboto-Regular.woff2') format('woff2'),
+  url('./../fonts/Roboto/Roboto-Regular.woff') format('woff'),
+  url('./../fonts/Roboto/Roboto-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Roboto';
+  src: url('./../fonts/Roboto/Roboto-Black.woff2') format('woff2'),
+  url('./../fonts/Roboto/Roboto-Black.woff') format('woff'),
+  url('./../fonts/Roboto/Roboto-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+.roboto {
+  font-family: "Roboto", sans-serif;
+}
+
+
+
+
+body {
+  .f-10 {
+    font-size: 10px;
+  }
+  .f-12 {
+    font-size: 12px;
+  }
+  .f-14 {
+    font-size: 14px;
+  }
+
+  .f-15 {
+    font-size: 15px;
+  }
+
+  .f-16 {
+    font-size: 16px;
+  }
+
+  .f-18 {
+    font-size: 18px;
+  }
+
+  .f-20 {
+    font-size: 20px;
+  }
+
+  .f-22 {
+    font-size: 22px;
+  }
+
+  .f-24 {
+    font-size: 24px;
+  }
+
+  .f-28 {
+    font-size: 28px;
+  }
+
+  .f-30 {
+    font-size: 30px;
+  }
+
+  .f-32 {
+    font-size: 32px;
+  }
+
+  .f-34 {
+    font-size: 34px;
+  }
+
+  .f-36 {
+    font-size: 36px;
+  }
+
+  .f-38 {
+    font-size: 38px;
+  }
+
+  .f-40 {
+    font-size: 40px;
+  }
+
+  .f-42 {
+    font-size: 42px;
+  }
+
+  .f-48 {
+    font-size: 48px;
+  }
+
+  .f-50 {
+    font-size: 50px;
+  }
+
+  .f-60 {
+    font-size: 60px;
+  }
+
+  .lh-20 {
+    line-height: 20px;
+  }
+
+  .lh-30 {
+    line-height: 30px;
+  }
+
+  .lh-40 {
+    line-height: 40px;
+  }
+
+  .lh-50 {
+    line-height: 50px;
+  }
+
+  .lh-60 {
+    line-height: 60px;
+  }
+
+  .font-weight-600 {
+    font-weight: 600;
+  }
+
+  .text-truncate-3 {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  .text-primary {
+    color: $primary !important;
+  }
+
+  .text-secondary {
+    color: $secondary !important;
+  }
+
+  .text-gray {
+    color: $darkgray !important;
+  }
+
+  .text-yellow {
+    color: $lightyellow;
+  }
+
+  .title-bg {
+    color: white;
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: 600;
+    font-size: 50px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    background-image: url("../img/title-bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 45px;
+    padding: 9px 0;
+  }
+
+  .secondary-title {
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 34px;
+    text-transform: uppercase;
+  }
+
+  .secondary-title-2 {
+    color: white;
+    font-size: 60px;
+    line-height: 60px;
+    text-transform: uppercase;
+    font-family: "rockwell", sans-serif;
+  }
+
+  .nav-title {
+    font-family: "rockwell", sans-serif;
+    font-size: 19px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    line-height: 24px;
+  }
+
+  .title-separator {
+    &:after {
+      content: "";
+      height: 2px;
+      width: 27px;
+      background: $white;
+      display: block;
+      margin-top: 10px;
+    }
+  }
+
+
+
+}
+
+@media (max-width: 768px) {
+  body {
+    .title-bg {
+      font-size: 30px;
+      margin-bottom: 30px;
+      background-size: 100%;
+      padding: 15px 0;
+    }
+  }
+}

@@ -1,0 +1,79 @@
+.pt-120 {
+  padding-top: 120px;
+}
+.it-project-active {
+  margin: 0 90px;
+  .it-project-item {
+    overflow: hidden;
+    padding: 8px;
+    border-radius: 20px;
+    background: var(--tp-common-white);
+    box-shadow: 0 2px 3px 0 rgba(50, 41, 73, 0.1);
+    .it-project-thumb {
+      border-radius: 16px;
+      .it-project-thumb img {
+        border-radius: 16px;
+        -webkit-transition: all 0.3s ease-in-out;
+        -moz-transition: all 0.3s ease-in-out;
+        -ms-transition: all 0.3s ease-in-out;
+        -o-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+      }
+    }
+    .it-project-content {
+      padding: 30px;
+      .it-project-title {
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 1.1;
+        margin-bottom: 8px;
+        letter-spacing: 0.03em;
+        color: var(--tp-common-black-10);
+        font-family: var(--tp-ff-platform);
+      }
+      .it-project-content span {
+        font-weight: 600;
+        font-size: 11px;
+        line-height: 1;
+        color: #61616a;
+        letter-spacing: 0.02em;
+        text-transform: uppercase;
+        padding: 9px 12px;
+        border-radius: 27px;
+        display: inline-block;
+        -webkit-transition: all 0.3s ease-in-out;
+        -moz-transition: all 0.3s ease-in-out;
+        -ms-transition: all 0.3s ease-in-out;
+        -o-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+        border: 1px solid rgba(50, 41, 73, 0.1);
+      }
+    }
+  }
+}
+.it-project-arrow button {
+  width: 50px;
+  height: 50px;
+  line-height: 1;
+  margin: 0 138px;
+  border-radius: 60px;
+  display: inline-block;
+  background-color: var(--tp-common-white);
+  border: 1px solid rgba(33, 33, 45, 0.1);
+}
+.it-project-dots {
+  margin-top: -40px;
+  .swiper-pagination-bullet {
+    border-radius: 7px;
+    width: 50px;
+    height: 6px;
+    opacity: 1;
+    margin: 0 4px;
+    transition: 0.3s;
+    background: rgba(33, 33, 45, 0.1);
+  }
+  .swiper-pagination-bullet.swiper-pagination-bullet-active {
+    opacity: 1;
+    background: #7463FF;
+  }
+}

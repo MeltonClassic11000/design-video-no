@@ -1,0 +1,57 @@
+@import "colors.scss";
+@import "fonts.scss";
+
+footer {
+  padding: 60px 0;
+  font-size: 15px;
+  font-family: 'Amiko', sans-serif;
+
+  p {
+    color: $white;
+  }
+
+  nav {
+    .nav-title {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 24px;
+    }
+    .nav-link {
+      color: $white;
+      font-size: 15px;
+      padding: 0 0 0 30px;
+      margin: 5px 0;
+      transition: 0.3s ease-in-out;
+      position: relative;
+      &:before {
+        content: '';
+        width: 16px;
+        height: 16px;
+        position: absolute;
+        left: 0;
+        top: 50%;
+        transform: translate(0, -50%);
+        background: url("./../img/check.svg") no-repeat center/cover;
+      }
+
+      &:hover {
+        color: #e63467;
+      }
+    }
+  }
+  .social-icons {
+    a {
+      &:hover,
+      &:focus {
+        color: $secondary;
+      }
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  footer {
+    .footer-logo {
+      width: 100px;
+    }
+  }
+}
